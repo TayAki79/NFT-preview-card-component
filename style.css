@@ -1,0 +1,122 @@
+:root {
+  /* Neutral colorways */
+
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Primary colorways */
+
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1.125rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-BG);
+}
+
+/* Header Content */
+
+.container {
+  width: 360px;
+  height: 620px;
+  background-color: var(--card-BG);
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 20px;
+}
+
+.hero-img {
+  margin: 25px;
+  border-radius: 10px;
+}
+
+/* Global styles for text information */
+
+.content, .creator {
+  margin-left: 25px;
+}
+
+/* Name, description, price and time remaining */
+
+.nft-title {
+  font-weight: 600;
+  color: var(--white);
+}
+
+.nft-desc {
+  color: var(--soft-blue);
+  line-height: 1.5rem;
+  padding: 20px 0;
+}
+
+.price-time {
+  display: flex;
+  max-width: 310px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.eth-icon, .value {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.clock-icon, .time-left {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.value {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.time-left {
+  color: var(--soft-blue);
+}
+
+/* Footer Content */
+
+.creator {
+  padding: 22.5px 0;
+}
+
+.creator-img, .creator-name {
+  display: inline;
+  vertical-align: middle;
+}
+
+.creator-img {
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.creator-name {
+  color: var(--soft-blue);
+  margin-left: 13px;
+}
+
+span {
+  color: var(--white);
+}
+@media screen (max-width: 375px) {
+
+}
