@@ -157,13 +157,3 @@ span:hover {
   cursor: pointer;
   color: var(--cyan);
 }
-
-@media screen (max-width: 375px) {
-
-}
-
-
-
-
-
-/* I'm stuck. Can't apply the hover state as needed on the hero image :(((( */
