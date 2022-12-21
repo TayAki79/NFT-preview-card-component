@@ -79,17 +79,21 @@ body {
   margin-left: 25px;
 }
 
+.nft-title:hover, span:hover {
+  cursor: pointer;
+  color: var(--cyan);
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Name, description, price and time remaining */
 
 .nft-title {
   font-weight: 600;
   color: var(--white);
   transition: 0.3s ease-in-out;
-}
-
-.nft-title:hover {
-  cursor: pointer;
-  color: var(--cyan);
 }
 
 .nft-desc {
@@ -153,7 +157,3 @@ span {
   transition: 0.3s ease-in-out;
 }
 
-span:hover {
-  cursor: pointer;
-  color: var(--cyan);
-}
