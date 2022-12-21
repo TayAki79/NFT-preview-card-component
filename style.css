@@ -65,6 +65,7 @@ body {
 .img-header:hover::after {
   cursor: pointer;
   background-color: hsla(178, 100%, 50%, .6);
+  border-radius: 20px;
   opacity: 1;
 }
 
