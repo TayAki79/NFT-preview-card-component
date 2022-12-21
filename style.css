@@ -43,7 +43,7 @@ body {
 .img-header {
   width: 310px;
   height: 310px;
-  background-image: url(./images/image-equilibrium.jpg);
+  background-image: url(/images/image-equilibrium.jpg);
   background-size: cover;
   border-radius: 10px;
   margin: 25px;
